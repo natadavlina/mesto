@@ -5,4 +5,4 @@
 ## Используемые технологии
 Для создания сайта использовались HTML, CSS и JavaScript. Сайт адаптивен.
 ## Ссылка на сайт
-[Путешествия по России](https://natadavlina.github.io/russian-travel/)
+[Mesto](https://natadavlina.github.io/mesto/)
