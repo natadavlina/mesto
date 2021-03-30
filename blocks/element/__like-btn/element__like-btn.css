@@ -1,0 +1,13 @@
+.element__like-btn {
+    width: 22px;
+    height: 19px;
+    background-image: url(../../../images/Group.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    border: 0;
+    cursor: pointer;
+}
+.element__like-btn:hover {
+    opacity: 0.5;
+}

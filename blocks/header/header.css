@@ -1,0 +1,16 @@
+.header {
+    width: calc(100% - 400px);
+    padding: 45px 0 0;
+    position: relative;
+    margin: 0 auto;
+}
+@media screen and (max-width: 780px) {
+    .header {
+    width: calc(100% - 300px);
+    }
+}
+@media screen and (max-width: 320px) {
+    .header {
+        width: 100%;
+    }
+}

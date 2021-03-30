@@ -1,0 +1,23 @@
+.profile__info-btn {
+    width: 24px;
+    height: 24px;
+    background-image: url(../../../images/Edit\ Button.png);
+    background-repeat: no-repeat;
+    background-color:#000;
+    background-position: center;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 0;
+    box-sizing: border-box;
+    align-self: center;
+}
+.profile__info-btn:hover {
+    opacity: 0.6;
+}
+@media screen and (max-width: 780px) {
+    .profile__info-btn {
+        width: 18px;
+        height: 18px;
+        padding-left: 10px;
+    }
+}

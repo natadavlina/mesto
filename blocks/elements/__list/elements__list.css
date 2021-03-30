@@ -1,0 +1,29 @@
+.elements__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 282px);
+    gap: 20px 17px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+}
+
+@media screen and (max-width: 850px) {
+    .elements__list {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 300px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .elements__list {
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .elements__list {
+        width: calc(100% - 38px);
+    }
+}
