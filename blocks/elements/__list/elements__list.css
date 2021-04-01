@@ -12,7 +12,6 @@
     .elements__list {
         display: flex;
         flex-direction: column;
-        width: calc(100% - 300px);
     }
 }
 

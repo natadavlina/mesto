@@ -4,12 +4,17 @@
   display: grid;
   grid-template-columns: 1fr 24px;
   gap: 16px 18px;
+  margin: 0;
 }
 @media screen and (max-width: 780px) {
   .profile__info {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
-      text-align: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .profile__info {
+    align-self: center;
+    justify-content: center;
   }
 }
