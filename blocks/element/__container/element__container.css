@@ -1,6 +1,5 @@
 .element__container {
     max-width: 246px;
-    min-height: 23px;
     display: flex;
     justify-content: space-between;
     align-items: center;

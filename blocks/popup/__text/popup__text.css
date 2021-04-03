@@ -9,9 +9,9 @@
     border-left: none;
     border-right: none;
     box-sizing: border-box;
-    padding-bottom: 13px;
-    margin: 0 auto 30px;
+    margin-bottom: 30px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    padding-bottom: 13px;
 }

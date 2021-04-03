@@ -1,23 +1,24 @@
 .elements__list {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 282px);
+    grid-template-columns: repeat(auto-fill, minmax(282px, 1fr));
     gap: 20px 17px;
     margin: 0 auto;
     padding: 0;
     justify-content: center;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 980px) {
     .elements__list {
-        display: flex;
-        flex-direction: column;
+        width: calc(100% - 200px);
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .elements__list {
-        width: calc(100% - 200px);
+        width: calc(100% - 100px);
+        display: flex;
+        flex-direction: column;
     }
 }
 
