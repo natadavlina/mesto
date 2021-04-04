@@ -4,6 +4,7 @@
     margin: 0 auto;
     align-self: flex-start;
 }
+
 @media screen and (max-width: 780px) {
     .footer {
         width: calc(100% - 300px);

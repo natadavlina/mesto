@@ -1,5 +1,5 @@
 .profile__info {
-  max-width: 336px;
+  width: 336px;
   display: grid;
   grid-template-columns: 1fr 24px;
   gap: 16px 18px;
@@ -15,5 +15,7 @@
   .profile__info {
     align-self: center;
     justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
   }
 }
